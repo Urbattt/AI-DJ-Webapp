@@ -1,36 +1,64 @@
-.heading{
-    width:100%;
-    margin:0px ;
-    box-shadow: 5px 5px 5px blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+.heading {
+    font-size:20px;
+    width: 100%;
+    margin:0px; 
+}
+
+.NOTE {
+font-size:15px; 
+color:black;
+
+}
+
+body {
+background:cover; 
+
+}
+
+.div_speed {
+float:right;
+
+}
+
+.div_speed_img {
+width: 300px;
+
+border-radius:50px;
+}
+
+#speed {
+font-size: 20px;
+margin:20px;
+}
+
+.div_volume {
+    float:left;
+    
     }
     
-    .note {
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color:darkslateblue;
-    }
-    
-    .copy_right_footer{
-    position: fixed;
-    text-align: center;
-    font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    width:100%;
-    bottom:0px ;
-    background-color: aqua;
-    
-    }
-    
-    canvas{
-    border: 5px;
-    border-style: double;
-    border-color: maroon;
-    border-radius: 4px;
-    box-shadow: 5px 5px 5px darkgreen;
-    }
-    
+    .div_volume_img {
+    width: 300px;
  
+    border-radius:50px;
+    }
+    
+    #volume {
+    font-size: 20px;
+    margin:20px;
+    }
+
+    .play , .pause {
+width:100px;
+font-size:29px;
+    }
+
+    canvas{
+border:5px;
+border-color: red;
+border-style: dotted;
+border-radius:20px;
+box-shadow: 5px 5px 5px red;
+margin-top: 50px;
+    }
+
+  
